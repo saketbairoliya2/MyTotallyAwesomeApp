@@ -2,54 +2,33 @@
 
 <!DOCTYPE html>
 <html>
+  <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
  
 <head>
-  <title>To Do Application</title>
+  <title>profile Page</title>
   <style>
-    body{
-		padding: 50px;
-	  	background-color: #66CCFF;
-	  	font-family: sans-serif;
-	}
-	.todoListMain .header input {
-  		padding: 10px;
-  		font-size: 16px;
-  		border: 2px solid #FFF;
-	}
-	.todoListMain .header button {
-  		padding: 10px;
-  		font-size: 16px;
-  		margin: 10px;
-  		background-color: #0066FF;
-  		color: #FFF;
-  		border: 2px solid #0066FF;
-	}
- 
-	.todoListMain .header button:hover {
-  		background-color: #003399;
-  		border: 2px solid #003399;
-  		cursor: pointer;
-	}
-
-	.todoListMain .theList {
-	  	list-style: none;
-	  	padding-left: 0;
-	  	width: 255px;
-	}
- 
-	.todoListMain .theList li {
-  		color: #333;
-  		background-color: rgba(255,255,255,.5);
-  		padding: 15px;
-  		margin-bottom: 15px;
-  		border-radius: 5px;
-	}
+    .active {
+      background-color: #0099FF;
+    }
+    .side .sideBar{
+      margin-left: -0.75rem;
+    }
   </style>
 </head>
  
 <body>
-  <div id="container"></div>
-  <script src="output/myCode.js"></script>
+  <div id="container" class="container"></div>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+  <script src="output/profile.js"></script>
+
 </body>
  
 </html>
